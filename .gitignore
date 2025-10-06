@@ -1,0 +1,41 @@
+# File konfigurasi sensitif - JANGAN DIUNGGAH!
+application/config/database.php
+
+# File yang di-generate oleh sistem operasi
+.DS_Store
+Thumbs.db
+
+# Folder cache dan log CodeIgniter (abaikan semua isinya)
+application/cache/*
+application/logs/*
+# Tapi jangan abaikan file index.html di dalamnya
+!application/cache/index.html
+!application/logs/index.html
+
+# Jangan abaikan file .htaccess di dalam folder application
+!application/*/.htaccess
+
+# Abaikan folder build user guide
+user_guide_src/build/*
+user_guide_src/cilexer/build/*
+user_guide_src/cilexer/dist/*
+user_guide_src/cilexer/pycilexer.egg-info/*
+
+# Folder Composer
+/vendor/
+
+# File spesifik IDE & Editor
+#-------------------------
+/nbproject/
+.idea/*
+*.sublime-workspace
+*.sublime-project
+
+## File cache Sublime Text
+*.tmlanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
+
+# Folder hasil testing
+/tests/tests/
+/tests/results/
